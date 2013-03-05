@@ -45,7 +45,7 @@ if __name__ == "__main__":
         usage()
 
     directory = sys.argv[1]
-    if not os.path.isdir(dir):
+    if not os.path.isdir(directory):
         print "Error: Directory " + directory + " does not exist"
         sys.exit(1)
 
