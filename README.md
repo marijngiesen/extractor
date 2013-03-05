@@ -1,4 +1,4 @@
 extractor
 =========
 
-extractor - Scan directories for rar files, extract them and remove them.
+Scan directories for rar files, extract and remove them.
