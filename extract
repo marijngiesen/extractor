@@ -1,0 +1,5 @@
+#!/usr/bin/python
+
+from extractor.main import main
+
+main()
