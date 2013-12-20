@@ -10,7 +10,7 @@ def extract(filename):
         sys.stdout.flush()
 
     if not registry.DRYRUN:
-        status = call(registry.UNRAR_BINARY + " e -y " + filename + " > /dev/null", shell=True)
+        status = call(registry.UNRAR_BINARY + " e -y \"" + filename + "\" > /dev/null", shell=True)
     else:
         status = 0
 
